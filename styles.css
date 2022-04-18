@@ -1,0 +1,147 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#title{
+    background : #ff4c68;
+    color :#fff
+}
+h1{
+    font-size:3rem;
+    line-height:1.5
+}
+h2{
+    font-family : "Montserrat-bold";
+    font-size: 3rem;
+    line-height : 5rem;
+}
+h3{
+    font-family: "Montserrat-bold";
+}
+p{
+    color : #8f8f8f
+}
+.container-fluid{
+    padding : 3% 15% 7%;
+}
+.fab {
+    margin-right : 10px;
+}
+.navbar-brand{
+    font-family : "Ubuntu";
+    font-size : 3rem;
+    font-weight : bold
+}
+.nav-item{
+    padding : 0 18px;
+    
+    
+}
+.nav-link{
+    font-size:1.5rem;
+    font-family: "Montserrat-light";
+}
+.navbar{
+    padding-bottom : 4.5rem
+}
+.download-button{
+    margin : 5% 3% 5% 0
+}
+.title-image{
+    width : 60%;
+    transform : rotate(25deg);
+    position : absolute;
+    margin-right : 30%
+}
+#features{
+    padding : 7% 15%;
+    background : #fff;
+    position : relative;
+    z-index : 1
+}
+.feature-box {
+    text-align: center;
+    padding :5%;
+    font-family : "Montserrat-dark"
+}
+
+.icon{
+    color : #ef8172
+}
+.icon:hover{
+    color :#ff4c68
+}
+#testimonials{
+    padding :7% 15%;
+    text-align:center;
+    background : #ef8172;
+    color :#fff;
+}
+
+.testimonial-image{
+    width :10%;
+    border-radius: 100%;
+}
+#press{
+    background-color :#ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width :15%;
+    margin : 20px 20px 50px;
+}
+.carousel-item{
+    padding : 7% 15%
+}
+#pricing { 
+    padding : 100px;
+    text-align : center
+}
+.pricing-column{
+    padding : 3% 2%
+}
+@media (max-width:1028px){
+    .title-image{
+        position : static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background : #ff4c68;
+    color : #fff;
+    padding : 3% 15% 7%;
+}
+#cta h3{
+    font-size:4rem;
+    line-height:1.5;
+    text-align:center;
+    padding : 90px;
+    font-family: "Montserrat-dark";
+    margin-bottom: -1%;
+}
+.margin{
+    margin-left : 33%
+}
+@media (max-width:820px){
+        .second { 
+            margin-left: 150px;;
+        }
+}
+#footer{
+    background : #fff;
+    padding : 100px;
+}
+#footer .fa{
+    margin : 0 20px;
+    border-radius: 20%;
+    font-size: 1.1rem;
+}
+#footer p{
+    margin-top :20px;
+    text-align : center;
+    font-size: 1.2rem;
+    letter-spacing: 1.3px;
+}
